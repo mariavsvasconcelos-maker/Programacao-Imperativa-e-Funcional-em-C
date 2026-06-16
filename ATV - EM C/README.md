@@ -1,4 +1,4 @@
-# Atividades de Ponteiros em Linguagem C
+# Programação Imperativa e Funcional 
 
 Este repositório contém as resoluções de atividades práticas focadas em **Ponteiros, Passagem por Referência, Structs e Aritmética de Ponteiros** na linguagem C.
 
