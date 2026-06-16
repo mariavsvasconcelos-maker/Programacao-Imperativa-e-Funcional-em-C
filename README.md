@@ -1,4 +1,4 @@
-# Programação Imperativa e Funcional 
+# Atividades de Ponteiros em Linguagem C
 
 Este repositório contém as resoluções de atividades práticas focadas em **Ponteiros, Passagem por Referência, Structs e Aritmética de Ponteiros** na linguagem C.
 
@@ -24,8 +24,7 @@ Este repositório contém as resoluções de atividades práticas focadas em **P
 ### Atividade 3: Ponteiros para Structs
 *   **Enunciado:** Transforme o conceito abstrato de produto em uma struct chamada `Produto`, contendo um `id` (inteiro) e um `preco` (float). Atualize a função `aplicar_desconto` para que agora ela receba um ponteiro para a struct `Produto` e o percentual de desconto. Utilize o operador seta (`->`) para acessar e modificar o campo preço dentro da função.
 
-### Atividade 4: Aritmética de Ponteiros em Arrays 
+### Atividade 4: Aritmética de Ponteiros em Arrays
 *   **Enunciado:** Expanda o programa para gerenciar um pequeno estoque. Na `main`, crie um array estático de 3 struct `Produto` e inicialize-os com dados de sua escolha. Crie uma função chamada `imprimir_produtos` que receba um ponteiro para `Produto` e a quantidade de itens. **Obrigatório:** Dentro da função, percorra o vetor e imprima os dados utilizando *aritmética de ponteiros* (ex: `(ptr + i)->preco`), sem utilizar a sintaxe tradicional de índices de colchetes (`ptr[i]`).
-gcc atividade4/atividade4.c -o atividade4/atividade4.exe
-.\atividade4\atividade4.exe
-```
+
+---
